@@ -1,0 +1,25 @@
+/* DEC15 design tokens. Change colors and type here only. University of Sydney palette. */
+:root{
+  --ochre:#E64626;        /* accent: buttons, active states, progress, large headings */
+  --ochre-deep:#B8361C;   /* darker ochre for small text on white */
+  --charcoal:#424242;     /* body text */
+  --ink:#000000;
+  --sandstone:#FCEDE2;    /* panels, highlights */
+  --grey:#F1F1F1;         /* page background */
+  --white:#FFFFFF;
+  --line:#DCD6D1;
+  --muted:#5F5F5F;
+  --ok:#2F6B45;  --ok-bg:#E6F1EA;
+  --no:#8A3B12;  --no-bg:#FBE7DA;
+  --teacher:#2D4A6B; --teacher-bg:#E9EFF5;
+  --extra:#5B4B8A;   --extra-bg:#EEEAF6;
+
+  --font-ui:"Atkinson Hyperlegible", "Segoe UI", Arial, sans-serif;
+  --font-read:"Literata", Georgia, "Times New Roman", serif;
+
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px;
+  --r-sm:4px; --r-md:8px;
+  --measure:70ch;
+  --fs-body:1.0625rem; --fs-small:.9rem; --fs-h3:1.2rem; --fs-h2:1.65rem; --fs-h1:2.5rem;
+}
+.projection{ --fs-body:1.35rem; --fs-small:1.1rem; --fs-h3:1.55rem; --fs-h2:2.1rem; --fs-h1:3rem; }
